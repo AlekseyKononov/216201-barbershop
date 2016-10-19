@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Aleksey Kononov](https://up.htmlacademy.ru/htmlcss/15/user/216201).
+* Наставник: [Вадим Новаш]
 
 ---
 

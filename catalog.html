@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+  </head>
+  <body>
+		
+		<div class="wrapper">
+
+			<!-- header -->
+
+    	<header class="header">
+          <div class="container">
+            <div class="header__logo">
+              <img class="header__img" src="#">
+            </div>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                   <a class="nav__link" href="#">Информация</a>
+                </li>
+                 <li class="nav__item">
+                   <a class="nav__link" href="#">Новости</a>
+                 </li>
+                 <li class="nav__item">
+                   <a class="nav__link" href="#">Прайс-лист</a>
+                 </li>
+                 <li class="nav__item">
+                   <a class="nav__link nav__link-active" href="#">Магазин</a>
+                 </li>
+                 <li class="nav__item">
+                   <a class="nav__link" href="#">Контакты</a>
+                 </li>
+               </ul>
+              </nav>
+              <div class="user-block">
+                <a class="user-block__login" href="#">Вход</a>
+              </div>
+            </div>
+        </header>
+
+        <!-- main -->
+
+        <main class="container">
+
+          <!-- breadcrumbs -->
+
+          <div class="breadcrumbs">
+            <h1 class="breadcrumbs__text">средства для ухода</h1>
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link">главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link">магазин</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link breadcrumbs__link-active">средства для ухода</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- sidebar -->
+
+          <aside class="sidebar">
+            <form class="sidebar__form" name="form" method="post" action="#"> 
+              <h2 class="sidebar__text">производители:</h2>
+              <label for="checkbox1">
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="baxter">baxter of california
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="natty">mr natty
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="suavecito">suavecito
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="malin">malin+goetz
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="murray">murray's
+                <input class="sidebar__input" id="checkbox1" type="checkbox" name="checkbox1__manufacturers" value="crew">american crew
+              </label>
+              <label for="checkbox2">
+                <h2 class="sidebar__text">группы товаров:</h2>
+                <input class="sidebar__input" id="checkbox2" type="radio" name="checkbox2__goods-types" value="baxter">baxter of california
+                <input class="sidebar__input" id="checkbox2" type="radio" name="checkbox2__goods-types" value="baxter">baxter of california
+                <input class="sidebar__input" id="checkbox2" type="radio" name="checkbox2__goods-types" value="baxter">baxter of california
+              </label>
+              <input class="sidebar__submit-btn" type="submit" name="показать">
+            </form>
+          </aside>
+
+          <!-- goods -->
+
+          <div class="goods">
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">набор для путешествий <span class="goods__text-caps">"baxter of california"</span></p>
+              <div class="goods__order">
+                <p class="goods__order-price">2 900 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">увлажняющий кондиционер<span class="goods__text-caps">"baxter of california"</span></p>
+              <div class="goods__order">
+                <p class="goods__order-price">750 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">гель для волос<span class="goods__text-caps">"sauvecito"</span></p>
+              <div class="goods__order">
+                <p class="goods__order-price">290 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">глина для укладки волос<span class="goods__text-caps">"american crew"</span></p>
+              <div class="goods__order">
+                <p class="goods__order-price">500 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">гель для волос<span class="goods__text-caps">"american crew"</span> </p>
+              <div class="goods__order">
+                <p class="goods__order-price">300 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+            <article class="goods__item">
+              <img class="goods__img" src="#">
+              <p class="goods__text">набор для бритья <span class="goods__text-caps">"baxter of california"</span> </p>
+              <div class="goods__order">
+                <p class="goods__order-price">3 900 руб.</p>
+                <input class="goods__order-buy" type="submit" name"купить">
+              </div>
+            </article>
+          </div>
+
+          <!-- pages -->
+
+          <div class="pages">
+            <ul class="pages__list">
+              <li class="pages__item"><a class="pages__link" href="#">1</a></li>
+              <li class="pages__item"><a class="pages__link pages__link-active" href="#">2</a></li>
+              <li class="pages__item"><a class="pages__link" href="#">3</a></li>
+              <li class="pages__item"><a class="pages__link" href="#">4</a></li>
+            </ul>
+          </div>  
+        </main>
+    </div>
+
+			<!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <section class="footer__contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer__social">
+          <p class="footer__text">Давайте дружить!</p>
+          <a class="footer__social-btn footer__social-vk" href="#">Вконтакте</a>
+          <a class="footer__social-btn footer__social-fb" href="#">Фейсбук</a>
+          <a class="footer__social-btn sfooter__social-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer__copyright">
+          <p class="footer__text">Разработано:</p>
+          <a class="footer__btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

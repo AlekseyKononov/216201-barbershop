@@ -2,11 +2,145 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
+		
+		<div class="wrapper">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+			<!-- header -->
 
+    	<header class="header">
+          <div class="container">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Информация</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Новости</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Прайс-лист</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Магазин</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="user-block">
+              <a class="user-block__login" href="#">Вход</a>
+            </div>
+          </div>
+        </header>
+
+        <!-- main -->
+
+        <main class="container">
+          <div class="logo">
+            <img class="logo__img" src="img/index-logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
+          </div>
+					
+					<!-- features -->
+
+          <section class="features">
+            <div class="features__item">
+              <b class="features__name">Быстро</b>
+              <p class="features__text">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+            </div>
+            <div class="features__item">
+              <b class="features__name">Круто</b>
+              <p class="features__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+            </div>
+            <div class="features__item">
+              <b class="features__name">Дорого</b>
+              <p class="features__text">Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+            </div>
+          </section>
+
+					<!-- content -->
+
+          <div class="content">
+            <div class="content__left">
+              <h2 class="content__title">Новости</h2>
+              <ul class="content__news">
+                <li class="content__item">
+                  <p class="content__text">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                  <time class="content__time" datetime="2016-01-11">11 января</time>
+                </li>
+                <li class="content__item">
+                  <p class="content__text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+                  <time class="content__time" datetime="2016-01-18">18 января</time>
+                </li>
+              </ul>
+              <a class="content__link" class="btn" href="#">Все новости</a>
+            </div>
+            <div class="content__right">
+              <h2 class="content__title">Фотогалерея</h2>
+              <div class="content__gallery">
+                <figure class="content__gallery-content">
+                  <img class="content__gallery-img" src="img/photo-1.jpg" width="286" height="164" alt="">
+                </figure>
+                <button class="content__btn content__btn-gallery-prev" type="button">Назад</button>
+                <button class="content__btn content__btn-gallery-next" type="button">Вперёд</button>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content__left">
+              <h2 class="content__title">Контактная информация</h2>
+              <p class="content__text">
+                Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                Телефон: +7 (812) 666-02-66
+              </p>
+              <p class="content__text">
+                Время работы:<br>
+                пн — пт: с 10:00 до 22:00<br>
+                сб — вс: с 10:00 до 19:00
+              </p>
+              <a class="content__btn" href="#">Как проехать</a>
+              <a class="content__btn" href="#">Обратная связь</a>
+            </div>
+            <div class="content__right">
+              <h2 class="content__title">Записаться</h2>
+              <p class="content__text">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+              <form class="content__form" action="https://echo.htmlacademy.ru" method="post">
+                <input class="content__form-input" type="text" name="date" value="" placeholder="Дата">
+                <input class="content__form-input" type="text" name="time" value="" placeholder="Время">
+                <input class="content__form-input" type="text" name="name" value="" placeholder="Ваше имя">
+                <input class="content__form-input" type="tel" name="phone" value="" placeholder="Телефон">
+                <button class="content__btn" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </main>
+    </div>
+
+			<!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <section class="footer__contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer__social">
+          <p class="footer__text">Давайте дружить!</p>
+          <a class="footer__social-btn footer__social-vk" href="#">Вконтакте</a>
+          <a class="footer__social-btn footer__social-fb" href="#">Фейсбук</a>
+          <a class="footer__social-btn sfooter__social-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer__copyright">
+          <p class="footer__text">Разработано:</p>
+          <a class="footer__btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
   </body>
 </html>
